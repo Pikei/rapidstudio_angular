@@ -1,0 +1,18 @@
+#dreadbornePlot {
+    height: 100vh;
+    .content {
+        background-image: url(../../../../assets/images/dreadborne/dreadborne\ background\ plot.jpg);
+        background-size: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p, h1{
+            width: 700px;
+            margin-left: 100px;
+        }
+        p{font-size: 14pt;}
+        h1{font-size: 25pt;}
+    }
+}

@@ -1,0 +1,40 @@
+#rapidTeam {
+    height: 100vh;
+    .content {
+        background-color: black;
+        color: white;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 30%;
+            height: 70%;
+            align-self: center;
+        }
+
+        div {
+            width: 50%;
+            margin-left: 50px;
+            margin-right: 100px;
+            flex-direction: column;
+            text-align: justify
+        }
+
+        div h1 {
+            font-size: 44pt;
+            font-weight: 1000;
+            letter-spacing: 5px;
+        }
+
+        div h3 {
+            margin-top: 35px;
+            font-size: 14pt;
+            font-weight: bold;
+        }
+
+        div p {
+            font-size: 12pt;
+        }
+    }
+}

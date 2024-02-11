@@ -1,0 +1,85 @@
+.menuBlack {
+    height: 105px;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    #MBhome {
+        position: relative;
+        #MBimgmain {
+            position: relative;
+            opacity: 1;
+            width: 90px;
+        }
+        #MBimghover {
+            position: absolute;
+            opacity: 0;
+            width: 0px;
+        }
+    }
+    #MBhome:hover {
+        position: relative;
+        #MBimgmain {
+            position: absolute;
+            opacity: 0;
+            width: 0px;
+        }
+        #MBimghover {
+            position: relative;
+            opacity: 1;
+            width: 90px;
+        }
+    }
+
+    .dopdownBlack {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dopdownBlack:hover button{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: rgb(210, 210, 210);
+        color: black;
+    }
+
+    .dopdownBlack:hover .games{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: white;
+        color: black;
+    }
+
+    .dropdownBlackContent {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdownBlackContent button {  
+        display: block;
+    }
+
+    .dropdownBlackContent button:hover {
+        background-color: #b7b7b7
+    }
+
+    .dopdownBlack:hover .dropdownBlackContent {
+        display: block;
+    }
+
+    button {
+        height: 65px;
+        width: 120px;
+        padding: 5px 15px;
+        margin: 20px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    button:hover {
+        background-color:white;
+        color: black;
+    }
+}

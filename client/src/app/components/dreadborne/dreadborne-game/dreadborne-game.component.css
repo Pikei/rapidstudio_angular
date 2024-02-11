@@ -1,0 +1,30 @@
+#dreadborneGame {
+    height: 100vh;
+    .content {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .content div {
+        flex: 1 45%;
+        height: 100%;
+        margin-top: 20vh;
+        margin-left: 25vh;
+        h1 {
+            font-size: 60pt;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16pt;
+        }
+    }
+     
+    .content img {
+        flex: 1 45%;
+        height: 85.2vh;
+        float: right;
+    }
+}

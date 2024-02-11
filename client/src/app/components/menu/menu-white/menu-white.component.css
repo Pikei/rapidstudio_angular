@@ -1,0 +1,83 @@
+.menuWhite {
+    height: 105px;
+    width:100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #MWhome {
+        position: relative;
+        #MWimgmain {
+            position: relative;
+            opacity: 1;
+            width: 90px;
+        }
+        #MWimghover {
+            position: absolute;
+            opacity: 0;
+            width: 0px;
+        }
+    }
+    #MWhome:hover {
+        position: relative;
+        #MWimgmain {
+            position: absolute;
+            opacity: 0;
+            width: 0px;
+        }
+        #MWimghover {
+            position: relative;
+            opacity: 1;
+            width: 90px;
+        }
+    }
+
+    .dopdownWhite {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dopdownWhite:hover button{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: rgb(40, 40, 40);
+        color: white;
+    }
+
+    .dopdownWhite:hover .games{
+        background-color: #000000;
+    }
+
+    .dropdownWhiteContent {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdownWhiteContent button {  
+        display: block;
+    }
+
+    .dropdownWhiteContent button:hover {
+        background-color: #3c3c3c
+    }
+
+    .dopdownWhite:hover .dropdownWhiteContent {
+        display: block;
+    }
+    
+    button {
+        height: 65px;
+        width: 120px;
+        padding: 5px 15px;
+        margin: 20px;
+        background-color: white;
+        color: black;
+        border: none;
+    }
+    button:hover {
+        background-color:black;
+        color: white;
+    }
+}

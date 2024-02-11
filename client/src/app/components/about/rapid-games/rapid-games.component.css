@@ -1,0 +1,48 @@
+#rapidGames {
+    height: 100vh;
+    .content {
+        height: 100%;
+        display: flex;
+        
+        #left {
+            width: 40%;
+            height: 85.2vh;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #left img {
+            width: 40%;
+            margin-top: 30px;
+        }
+        #dreadborneLogo {
+            transform: translate(-8px,0);
+        }
+
+        #right {
+            width: 60%;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #right h1 {
+            font-size: 44pt;
+            font-weight: 1000;
+            letter-spacing: 5px;
+            margin-top: 70px;
+        }
+
+        #right h3 {
+            margin-top: 50px;
+            font-size: 14pt;
+            font-weight: bold;
+        }
+
+        #right p {
+            font-size: 12pt;
+            text-align: justify;
+        }
+    }
+}

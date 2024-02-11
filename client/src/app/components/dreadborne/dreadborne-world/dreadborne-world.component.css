@@ -1,0 +1,29 @@
+#dreadborneWorld {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    .content {
+        height: 100%;
+        display: flex;
+        
+        div {
+            flex: 1 55%;
+            flex-direction: column;
+        }
+        p, h1{
+            width: 600px;
+            margin-left: 100px;
+            margin-left: 100px;
+        }
+        p{font-size: 14pt;}
+        h1{
+            font-size: 25pt;
+            margin-top: 30vh;
+        }
+         img {
+            flex: 1 45%;
+            height: 85.2vh;
+            float: right;
+        }
+    }
+}
